@@ -1,4 +1,4 @@
-name: Build APK
+9name: Build APK
 on:
   push:
   workflow_dispatch:
@@ -30,3 +30,4 @@ jobs:
         with:
           name: AutoWatermark-debug-apk
           path: source/AutoWatermark/app/build/outputs/apk/debug
+
