@@ -1,6 +1,4 @@
-
 name: Build APK
-
 on:
   push:
   workflow_dispatch:
@@ -31,5 +29,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: AutoWatermark-debug-apk
-          path: source/AutoWatermark/app/build/outputs/apk/debug/*.apk
-6
+          path: source/AutoWatermark/app/build/outputs/apk/debug
