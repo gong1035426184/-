@@ -31,3 +31,4 @@ jobs:
           name: AutoWatermark-debug-apk
           path: source/AutoWatermark/app/build/outputs/apk/debug
 
+
